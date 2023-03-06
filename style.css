@@ -1,0 +1,111 @@
+:root {
+    --beige: #fdfae3;
+    --blue: #6c91c2;
+    --pumpkin: #ff8c42;
+    --charcoal: #373f47;
+    --black: #000;
+    --white: #fff;
+
+}
+
+html {
+    background: var(--beige);
+    width: 100vw;
+    height: 100vh;
+    padding: 0 10%;
+    box-sizing: border-box;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-decoration: none;
+}
+
+/*NAV BAR*/
+
+.navLinks {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    border-bottom: 1px solid var(--charcoal);
+
+}
+
+.navLinks>h3>a, .navTitle > a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.navTitle {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*INDEX(HOME) PAGE*/
+.iLogo {
+    height: 20em;
+    width: 20em;
+    object-fit: cover;
+    padding-top: 5em;
+}
+
+.imain {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*LOGO PAGE*/
+
+.lLogo {
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
+}
+
+.section {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.subSection {
+    width: 100%;
+    margin-left: 2em;
+}
+
+.finalLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.customLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.lVarLogo {
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
+}
+
+.colourVar {
+    height: auto;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2em 3em;
+}
+
+.varSubSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
