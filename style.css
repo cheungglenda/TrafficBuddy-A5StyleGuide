@@ -109,3 +109,21 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.arrow{
+    height: 5em;
+    width: 5em;
+    object-fit: cover;
+}
+
+
+
+
