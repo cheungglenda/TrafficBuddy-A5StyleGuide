@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,400&display=swap"
+        rel="stylesheet">
     <title>Traffic Buddy - Logo</title>
 </head>
 
@@ -33,36 +37,138 @@
             <h3>LOREM</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
         </div>
+
         <h2>Typography</h2>
         <div class="subSection">
             <h3>LOREM</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
         </div>
+
         <h2>Buttons</h2>
         <div class="subSection">
-            <h3>LOREM</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
-        </div>
-        <h2>Navigation Bar</h2>
-        <div class="subSection">
-            <h3>LOREM</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
-        </div>
-        <h2>Imagery</h2>
-        <div class="subSection">
-            <h3>LOREM</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
-        </div>
-        <h2>Graphics</h2>
-        <div class="subSection">
-            <h3>LOREM</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
-        </div>
-        <h2>Quiz Feature</h2>
-        <div class="subSection">
-            <h3>LOREM</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
-        </div>
+            <div class="buttonText"></div>
+            <p>Buttons will follow sizing guidelines based on their perceived priority in the app.</p>
+            <h3>General Guidelines</h3>
+            <ul>
+                <li>Text colour is black (#000)</li>
+                <li>Border radius is 10px</li>
+            </ul>
+            <div class="indent">
+                <h4>Buttons Without Text</h4>
+                <h5>Widths and Height</h5>
+                <ul>
+                    <li>High Priority: 80px</li>
+                    <li>Medium Priority: 60px</li>
+                    <li>Low Priority: 45px</li>
+                </ul>
+                <h4>Buttons With Text</h4>
+                <h5>Height</h5>
+                <p>Height is the same size as described for buttons without text</p>
+                <h5>Width</h5>
+                <p>Buttons with text are 3x the button height</p>
+
+                <div class="buttonGridContainer">
+                    <div class="buttonYAxis">
+                        <p>With Text</p>
+                    </div>
+                    <div class="buttonXAxis">
+                        <div class="buttonImage">
+
+                            <p>High Priority</p>
+                            <div class="dottedLine">
+                                <button class="highPButton">Message Jane</button>
+                            </div>
+                            <p class="buttonXWriting">3X</p>
+                        </div>
+                        <p class="buttonYWriting">X = 80px</p>
+                        <div class="buttonImage">
+                            <p>Medium Priority</p>
+                            <div class="dottedLine">
+                                <button class="medPButton">Edit Post</button>
+                            </div>
+                            <p class="buttonXWriting">3X</p>
+                        </div>
+                        <p class="buttonYWriting">X = 60px</p>
+                        <div class="buttonImage">
+                            <p>Low Priority</p>
+                            <div class="dottedLine">
+                                <button class="lowPButton">See More</button>
+                            </div>
+                            <p class="buttonXWriting">3X</p>
+                        </div>
+                        <p class="buttonYWriting">X = 45px</p>
+                    </div>
+                </div>
+
+                <h4>Margins</h4>
+                <p>Below are the total margin widths between elements. Therefore, each element will have half of the
+                    listed
+                    margin sizes of the value stated below.</p>
+                <ul>
+                    <li>High priority: 12px</li>
+                    <li>Medium priority: 24px</li>
+                    <li>low priority: 40px</li>
+                </ul>
+                <h4>Colours</h4>
+                <h4>Drop Shadow</h4>
+                <ul>
+                    <li>4x spread in X and Y with 10px blur in the colour Charcoal (#373F47) to indicate clickability.
+                    </li>
+                </ul>
+                <h4>Colours</h4>
+                <ul>
+                    <li>High priority: Pumpkin (#FF8C42) or Silver Lake Blue (#6C91C2) to accent the highest level of
+                        importance</li>
+                    <li>Medium priority: Silver Lake Blue (#6C91C2)</li>
+                    <li>Low priority: Silver Lake Blue (#6C91C2) or Charcoal (#373F47)</li>
+                </ul>
+            </div>
+            <h3>Post Buttons</h3>
+            <p>Post Buttons deviate slightly from the general button guidelines as it is one of the main features of the
+                app. These buttons are high-priority and therefore 80px high and are fill the width of the screen. In
+                order to preserve the use of Pumpkin colour as a priority accent, the colour used for post buttons is
+                Silver Lake Blue (#6C91C2) because the presence of many post buttons may negate the importance of the
+                Pumpkin colour.</p>
+            <p>Padding is 1em for the vertical (height) axis and 0.5em for the horizontal (width) axis.</p>
+            <h3>Quiz Option Buttons</h3>
+            <p>Quiz Option Buttons should follow the guidelines established for Post Buttons. Default state uses a fill
+                colour of Silver Lake Blue (#6C91C2), Selected state Charcoal (#373F47) with a text colour of Beige
+                (#FDFAE3). Feedback state uses a fill colour of Pumpkin (#FF8C42) with a 3px solid stroke in Charcoal
+                colour.</p>
+
+
+
+            <h2>Navigation Bar</h2>
+            <div class="subSection">
+                <p>Nav bar buttons follow the medium priority button guidelines.</p>
+                <ul>
+                    <li> Each icon is 60x60px size</li>
+                    <li>Margin between each icon and between icons is 12px per icon side (24px total margin)</li>
+                </ul>
+                <p>In the default state, the icons are outlined in Charcoal (#373F47) with a Beige (#FDFAE3) fill.
+                    In
+                    the
+                    active/clicked state, the icons will change to a Charcoal fill.
+                </p>
+            </div>
+
+            <h2>Imagery</h2>
+            <div class="subSection">
+                <h3>LOREM</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
+            </div>
+
+            <h2>Graphics</h2>
+            <div class="subSection">
+                <h3>LOREM</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
+            </div>
+
+            <h2>Quiz Feature</h2>
+            <div class="subSection">
+                <h3>LOREM</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius.</p>
+            </div>
     </main>
 
     <footer>

@@ -17,12 +17,38 @@ html {
 
 }
 
+body, button {
+    font-family: 'Raleway', sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     text-decoration: none;
 }
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+
+
+}
+
+.indent {
+    margin-left: 1.5em;
+
+}
+
 
 /*NAV BAR*/
 
@@ -34,7 +60,8 @@ nav {
 
 }
 
-.navLinks>h3>a, .navTitle > a {
+.navLinks>h3>a,
+.navTitle>a {
     text-decoration: none;
     color: inherit;
 
@@ -104,26 +131,99 @@ nav {
     margin: 2em 3em;
 }
 
-.varSubSection{
+.varSubSection {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+/*STYLES PAGE*/
+
+
+/*Buttons Section*/
+
+button{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 10px var(--charcoal);
+}
+
+.highPButton{
+    background-color: var(--pumpkin);
+    height: 80px;
+    width: 240px;
+    font-size: 16px;
+
+}
+
+.medPButton{
+    background-color: var(--blue);
+    height: 60px;
+    width: 180px;
+    font-size: 14px;
+
+}
+
+.lowPButton{
+    background-color: var(--blue);
+    height: 45px;
+    width: 135px;
+    font-size: 12px;
+
+}
+
+.buttonGridContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonYAxis{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1em;
+}
+
+.buttonXAxis{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0px 2em;
+}
+
+.dottedLine{
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    height: fit-content;
+    padding: 1em;
+}
+.buttonXWriting{
+    text-align: center;
+    margin: 0px;
+}
+
+.buttonYWriting{
+    writing-mode: vertical-rl;
+    text-align: center;
+    margin: 0px;
+}
+
 /*FOOTER*/
 
-footer{
+footer {
     display: flex;
     justify-content: flex-end;
     position: relative;
+
 }
 
-.arrow{
+.arrow {
     height: 5em;
     width: 5em;
     object-fit: cover;
 }
-
-
-
-
