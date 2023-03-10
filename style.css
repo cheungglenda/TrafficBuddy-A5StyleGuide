@@ -227,3 +227,99 @@ footer {
     width: 5em;
     object-fit: cover;
 }
+
+/** COLOUR PALETTE */
+.colourLeft {
+    width:40%;
+    float:left;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.colourRight {
+    width:60%;
+    float:right;
+}
+
+.colourPaletteLeft {
+    width:100%;
+    left:10%;
+}
+
+.colourPaletteRight {
+    width:100%;
+    line-height:2em;
+    margin-top:3em;
+}
+
+.colour {
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    display: flex;
+    flex-direction:column;
+    border:1px solid #414141; 
+    margin-bottom:10px;
+}
+
+#pumpkin {
+    background-color:#FF8C42;
+}
+
+#beige {
+    background-color: #FDFAE3;
+}
+
+#silverLakeBlue {
+    background-color: #6C91C2;
+}
+
+#charcoal {
+    background-color: #373F47;
+}
+
+#black {
+    background-color:#000;
+}
+
+#white {
+    background-color:#fff;
+}
+
+.colourNavBarSection {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.colourNavBar {
+    width:400px;
+    height:100px;
+    object-fit:contain;
+}
+
+.colourButtonsSection {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5em;
+}
+
+.colourButtons img {
+    width: 300px;
+    height:50px;
+    object-fit:contain;
+}
+
+/** GRAPHICS */
+.animations {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.animationExp {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5em;
+}
